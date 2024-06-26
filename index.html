@@ -19,13 +19,35 @@
         <h1 class="text__title">Демо-версия</h1>
         <p class="text__desc"> За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500
           средних и малых проектов. Используя знания и накопленный опыт мы можем предложить </p>
-        <button class="button"><span>Попробовать бесплатно</span>
+        <button class="button hero__content-button"><span>Попробовать бесплатно</span>
           <div class="button__img"><img src="./assets/img/arrow-up-right.svg" alt=""></div>
         </button>
       </div>
       <div class="hero_img"><img src="./assets/img/image 15.png" alt=""></div>
+   
     </section>
+   
   </main>
+  <div class="popup">
+    <div class="cross"><img src="./assets/img/x.svg" alt=""></div>
+    <form action="">
+      <h2 class="popup__title">Войти в систему</h2>
+      <label class="email-field__label" for="email"></label>
+      <input class="field__input" type="email" name="email" id="email" placeholder="Email/Телефон">
+      <label class="password" for="password"></label>
+      <input class="field__input" type="password" name="password" id="password" placeholder="Пароль">
+      <input type="checkbox" id="save-password" class="save-password" name="save-password">
+      <label class="checkbox-field__label" for="save-password" >Запомнить пароль</label>
+      <a href="/" class="popup__recover">
+        Восстановить
+        </a>
+      <button class="button popup__button-signIn">
+        Войти
+      </button>
+      <button class="button popup__button-signUp">Зарегистрироваться</button>
+    </form>
+   
+  </div>
   <script src="./index.js"></script>
 </body>
 
