@@ -1,0 +1,170 @@
+body {
+  padding: 36px 40px;
+}
+
+.main,
+.hero,
+.hero_img {
+  height: 455px;
+}
+
+.main {
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(235, 240, 250, 1);
+  overflow: hidden;
+}
+
+.hero_img {
+  max-width: 910px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 72px;
+}
+
+.hero__content {
+  max-width: 538px;
+  height: 251px;
+}
+
+.text__title {
+  font-size: 30px;
+  line-height: 48px;
+  color: rgba(31, 66, 132, 1);
+  margin-bottom: 18px;
+}
+
+.text__desc {
+  max-width: 511px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27.2px;
+  color: rgba(114, 114, 114, 1);
+  margin-bottom: 36px;
+
+}
+
+.button {
+  max-width: 341px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 60px;
+  padding: 12px 12px 12px 24px;
+  background: rgba(36, 76, 152, 1);
+  color: white;
+  font-size: 18px;
+  line-height: 28.8px;
+}
+
+.button__img {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 40px;
+  padding: 7px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1440px) {
+  .hero_img {
+    max-width: 680px;
+  }
+
+  .text__title {
+    font-size: 26px;
+    line-height: 41.6px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 24px;
+    height: 634px;
+  }
+
+  .main,
+  .hero {
+    height: 586px;
+  }
+
+  .hero_img {
+    height: 360px;
+    max-width: 720px;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .hero__content {
+    max-width: 100%;
+    margin: 24px;
+  }
+
+  .text__title {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .text__desc {
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+  }
+  .button{
+    width: 261px;
+    height: 56px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .button__img {
+    width: 36px;
+    height:36px;
+  }
+}
+
+
+@media (max-width: 375px) {
+  body {
+    padding:14px 24px;
+    height: 510px;
+  }
+  .main,
+  .hero {
+    height: 482px;
+  }
+  .hero_img {
+    max-width: 328.48px;
+    height: 220px;
+  }
+  .hero__content{
+    margin-bottom: 18px; 
+  }
+  .text__title {
+    font-size: 17px;
+    line-height: 27.2px;
+  }
+
+  .text__desc {
+    font-size: 13px;
+    line-height: 20.8px;
+    margin-bottom: 18px;
+
+  }
+
+  .button{
+    width: 279px;
+  }
+
+
+}
